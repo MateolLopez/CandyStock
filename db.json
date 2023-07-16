@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "name": "queso crema",
+      "price": "123",
+      "category": "Milka",
+      "instock": true,
+      "id": 1
+    },
+    {
+      "name": "queso ricotero",
+      "price": "123",
+      "category": "Milka",
+      "instock": true,
+      "id": 2
+    }
+  ]
+}

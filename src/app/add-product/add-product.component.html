@@ -1,0 +1,20 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width" appearance="outline">
+    <mat-label>Product Name</mat-label>
+    <input name="name" [(ngModel)]="product.name"  matInput placeholder="Milka Oreo">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width" appearance="outline">
+    <mat-label>Price</mat-label>
+    <input name="price" [(ngModel)]="product.price" (keydown.enter)="addProduct()" matInput placeholder="860">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width" appearance="outline">
+    <mat-label>Category</mat-label>
+    <input name="category" [(ngModel)]="product.category" matInput placeholder="Alfajor, Helado, etc">
+  </mat-form-field>
+</form>
+
+<div class="buttons">
+  <button class="btn-mat" mat-raised-button color="primary" (click)="addProduct()">Add</button>
+</div>

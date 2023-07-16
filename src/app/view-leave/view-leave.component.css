@@ -1,0 +1,32 @@
+.btn-stock{
+  margin-top: 6px;
+}
+
+/* .mat-column-name{
+  width:40%;
+}
+
+.mat-column-price{
+  width:30%;
+} */
+
+.mat-column-stock{
+  text-align: center;
+}
+
+.btn-stock{
+  margin-top: 6px;
+  margin-right: 4px;
+}
+
+.btn-edit{
+  margin-top: 6px;
+}
+
+.table-stock{
+  width: 100%;
+}
+
+.accord-container{
+  margin-top: 40px;
+}
